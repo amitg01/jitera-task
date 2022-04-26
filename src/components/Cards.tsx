@@ -25,7 +25,7 @@ const Cards = (): JSX.Element => {
 
   useEffect(() => {
     getUsers();
-  }, []);
+  }, [getUsers]);
 
   const CardsContainer = (): JSX.Element => (
     <div className="flex flex-wrap -mx-4">
